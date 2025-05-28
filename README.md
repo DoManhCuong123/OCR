@@ -4,4 +4,4 @@
  - pip install paddleocr==3.0.0
 - vào file theo đường dẫn venv/lib/paddleocr/tools/infer/predict_rec Tìm đến dòng self.rec_algorithm và gán giá trị "SRN"
 - vào file theo đường dẫn venv/lib/paddleocr/paddleocr.py Tìm đến dòng SUPPORT_DET_MODEL = ["DB"] và bổ dung "SAST" vào trong list
-- Cuối cùng là chạy file
+- Cuối cùng là chạy file System_Final.py hoặc MySystem_Final.py
