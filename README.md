@@ -4,4 +4,8 @@
  - pip install paddleocr==3.0.0
 - vào file theo đường dẫn venv/lib/paddleocr/tools/infer/predict_rec Tìm đến dòng self.rec_algorithm và gán giá trị "SRN"
 - vào file theo đường dẫn venv/lib/paddleocr/paddleocr.py Tìm đến dòng SUPPORT_DET_MODEL = ["DB"] và bổ dung "SAST" vào trong list
+- tải các file mô hình
+  - mô hình phát hiện: https://drive.google.com/drive/folders/1P88kI2n8fTsAPUI-YAtRjl4Vj_vcC_Kw?usp=sharing
+  - mô hình nhận diện: https://drive.google.com/drive/folders/1uER_s-yobAbNbUmCOaQRuJ99nLvit4aG?usp=drive_link
+- mở file System_final và gán được dẫn của 2 mô hình vào det_model_dir cho mô hình phát hiện và rec_model_dir cho mô hình nhận diện
 - Cuối cùng là chạy file System_Final.py hoặc MySystem_Final.py
